@@ -72,8 +72,9 @@ Accessibility is something I want to continue improving as I build more projects
 
 ```text
 simple-omelette-recipe/
-├── images/
-│   └── image-omelette.jpeg
+├── assets/
+│   └── images/
+│   └── fonts/
 ├── index.html
 ├── style.css
 └── README.md
