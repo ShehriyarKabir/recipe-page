@@ -2,17 +2,13 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   
   <title>Frontend Mentor | Recipe page</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 0.6875rem; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="style.css">
+  
 </head>
 <body>
 
@@ -28,9 +24,9 @@
       <div class="preparation-box">
         <h3>Preparation time</h3>
         <ul>
-          <li>Total: Approximately 10 minutes
-          <li>Preparation: 5 minutes</li>
-          <li>Cooking: 5 minutes</li>
+          <li><span class="list-heading">Total:</span> Approximately 10 minutes</li>
+          <li><span class="list-heading">Preparation:</span> 5 minutes</li>
+          <li><span class="list-heading">Cooking:</span> 5 minutes</li>
         </ul>
       </div>
       
@@ -45,6 +41,8 @@
           <li>Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
         </ul>
       </section>
+
+      <hr/>
       
       <section class="instruciton-section">
 
@@ -52,64 +50,63 @@
         
         <ol>
           <li>
-            Beat the eggs: In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. 
+            <span class="list-heading">Beat the eggs: </span> In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. 
             You can add a tablespoon of water or milk for a fluffier texture.
           </li>
           
           <li>  
-            Heat the pan: Place a non-stick frying pan over medium heat and add butter or oil.
+            <span class="list-heading">Heat the pan: </span> Place a non-stick frying pan over medium heat and add butter or oil.
           </li>
 
           <li>
-            Cook the omelette: Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure 
+            <span class="list-heading">Cook the omelette: </span> Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure 
             the eggs evenly coat the surface.
           </li>
           
           <li>
-            Add fillings (optional): When the eggs begin to set at the edges but are still slightly runny in the 
+            <span class="list-heading">Add fillings (optional): </span> When the eggs begin to set at the edges but are still slightly runny in the 
             middle, sprinkle your chosen fillings over one half of the omelette.
           </li>
           
           <li>
-            Fold and serve: As the omelette continues to cook, carefully lift one edge and fold it over the 
+            <span class="list-heading">Fold and serve: </span> As the omelette continues to cook, carefully lift one edge and fold it over the 
             fillings. Let it cook for another minute, then slide it onto a plate.
           </li>
           
           <li>
-            Enjoy: Serve hot, with additional salt and pepper if needed.
+            <span class="list-heading">Enjoy: </span> Serve hot, with additional salt and pepper if needed.
           </li>
         </ol>
       </section>
+
+
+    <hr>
       
       <section class="nutrition-section">
         <h2>Nutrition</h2>
         
         <p>The table below shows nutritional values per serving without the additional fillings.</p>
         
-        <table>
-          <thead>
-            <th></th>
-            <th></th>
-          </thead>
-          <tbody>
+        <table class="nutrition-table">
+          <tbody >
             <tr>
-              <td>Calories</td>
-              <td>277kcal</td>
+              <td class="nutrition-label">Calories</td>
+              <td class="nutrition-value">277kcal</td>
             </tr>
 
             <tr>
-              <td>Carbs</td>
-              <td>0g</td>
+              <td class="nutrition-label">Carbs</td>
+              <td class="nutrition-value">0g</td>
             </tr>
 
             <tr>
-              <td> Protein</td>
-              <td>20g</td>
+              <td class="nutrition-label">Protein</td>
+              <td class="nutrition-value">20g</td>
             </tr>
 
             <tr>
-              <td>Fat</td>
-              <td>22g</td>
+              <td class="nutrition-label">Fat</td>
+              <td class="nutrition-value">22g</td>
             </tr>
           </tbody>
         </table>   
